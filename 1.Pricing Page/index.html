@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fictional Product Pricing</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="pricing-container">
+    <div class="pricing-option" data-plan="Basic" data-price="199">
+        <span>Basic Plan</span>
+        <div class="toggle-switch">
+            <label class="toggle-label">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="price-details">
+            <p class="price">₹199/month</p>
+            <ul class="advantages">
+                <li>Basic features</li>
+                <li>Email support</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="pricing-option" data-plan="Pro" data-price="399">
+        <span>Pro Plan</span>
+        <div class="toggle-switch">
+            <label class="toggle-label">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="price-details">
+            <p class="price">₹399/month</p>
+            <ul class="advantages">
+                <li>Advanced features<li>
+                <li>Priority email support</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="pricing-option" data-plan="Enterprise" data-price="599">
+        <span>Enterprise Plan</span>
+        <div class="toggle-switch">
+            <label class="toggle-label">
+                <input type="checkbox">
+                <span class="slider"></span>
+            </label>
+        </div>
+        <div class="price-details">
+            <p class="price">₹599/month</p>
+            <ul class="advantages">
+                <li>All features</li>
+                <li>24/7 premium support</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="summary">
+        <h2>Selected Plans</h2>
+        <p id="selected-plans">No plans selected</p>
+        <div id="pricing-info"></div>
+    </div>
+    <script src="scripts.js"></script>
+
+</body>
+ 
+</html>
